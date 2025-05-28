@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3 >SANDESH CANTEEN 2.0</h3>
+    <h3>MENU</h3>
+    <div table>
+    <label for="">idli-RS.20</label>
+    <input type="Number" name="" id="idli">
+    </div>
+<label for="">dosa-RS.35</label>
+    <input type="Number" name="" id="dosa">\
+    <div>
+    <label for="">Poori-RS.40</label>
+    <input type="Number" name="" id="Poori">
+    </div>
+    <label for="">Rice-RS.50</label>
+    <input type="Number" name="" id="rice">
+    <div>
+    <label for="">yuvadopu-RS.50</label>
+    <input type="Number" name="" id="day special">
+    </div>
+    <label for="">dayspecial-RS.100</label>
+    <input type="Number" name="" id="">
+    <div>
+<button onclick="bill()">submit</button>
+</div>
+<script>
+    function bill(){
+        var idli = document.getElementById("idli").value;
+         var dosa = document.getElementById("dosa").value;
+         var poori = document.getElementById("Poori").value;
+         var rice = document.getElementById("rice").value;
+        var dayspecial = document.getElementById("day special").value;
+        var total=idli*20+dosa*35+poori*40+rice*50+dayspecial*100;
+        alert(total);
+    }
+</script>
+
+
+</body>
+</html>

@@ -1,0 +1,11 @@
+
+
+Form{
+    background-color: beige;
+    height: 400px;
+    width: 500px;
+    color: aqua;
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid coral;
+}
